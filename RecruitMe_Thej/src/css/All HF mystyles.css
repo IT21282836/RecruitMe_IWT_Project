@@ -1,0 +1,443 @@
+/* IT21282836 - Mallawaarachchi T. D. R. */
+body#contactus{
+	background-image: url("../images/contactBg.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+}
+
+
+
+
+/*HEADER start*/
+.header{
+	background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0, 0.4);
+
+	height: 100vh;
+	width: 100%;
+	padding: 0 8%;
+	
+	position: relative;
+}
+
+.nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;	
+}
+
+.logo{
+	width: 170px;	
+}
+
+.nav-link{
+	padding: 28px 0px;
+}
+
+.nav-link li{
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.nav-link li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 0;
+	position: relative;
+	font-size: 25px;
+}
+
+.nav-link li a:hover{
+	font-size: 30px;
+	color: yellow;
+}
+
+.button-in{
+	background: #1E90FF;
+	color: white;
+	padding: 10px 30px;
+	border-radius: 3px;
+	cursor: pointer;	
+}
+
+.button-up{
+	background: #1E90FF;
+	color: white;
+	padding: 10px 30px;
+	border-radius: 3px;
+	cursor: pointer;	
+}
+
+.button-in:hover{
+	font-size: 26px;
+}
+
+.button-up:hover{
+	font-size: 26px;
+}
+/*HEADER end*/
+
+
+
+
+h1#textHead{
+	font-size: 40px;
+	color: white;
+	font-weight: bolder;	
+}
+
+div.contactLayout{
+	width: 70%;
+	height: 70%;
+    background: #5D6D7E;
+    border-radius: 60px;
+    padding: 30px 30px 30px 30px;
+	margin: auto;
+}
+
+.contactLayout .contactDetails{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contactLayout .contactDetails .leftContent{
+	width: 35%;
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	right: 10px;
+	justify-content: center;
+	margin: 10px 10px 10px 10px;
+}
+
+.contactDetails .leftContent::after{
+	content: '';
+	height: 100%;
+	width: 3px;
+	background: #afafb6;
+	position: absolute;
+	right: -50px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.leftContent .content{
+	text-align: center;
+	margin: 20px;
+}
+
+.leftContent .content i{
+	font-size: 20px;
+	color: #F7E31C;
+	margin-bottom: 10px;
+}
+
+.leftContent .content .conTextHead{
+	font-size: 25px;
+	color: black; 
+	font-weight: bolder;
+	opacity: 0.7;
+	margin-bottom: 5px;
+}
+
+.leftContent .content .conText{
+	font-size: 17px;
+	color: #D3D3D2 ;
+	font-weight: bolder;
+	margin-bottom: 12px;
+}
+
+.contactLayout .contactDetails .rightContent{
+	width: 37%;	
+	justify-content: center;
+	margin: auto;
+}
+
+
+
+form{
+	width: 300px;
+	margin: auto;
+	padding: 50px;
+	background: black;
+	font-size: 13px;
+	font-family: verdana;
+	color: white;
+	font-weight: bolder;	
+}
+
+
+
+
+
+/*FOOTER start*/
+.left{
+	background-color: black; 
+	text-align: center;	
+}
+
+.left b{
+	text-decoration: underline;
+	color:#D948DD;
+}
+.left a{
+	text-decoration:none;
+	font-size: 18px;
+	color: white;
+}
+
+.left a:active{
+	color: darkred;
+}
+
+.left a:hover{
+	color: orange;
+}
+
+.power{
+	font-size: 19px;
+	background-color: #a9a9a9;
+	text-align: center;
+}
+
+/*
+hr{
+	padding-left:0px;
+	border: 6px solid black;
+	height:5px;
+	width:100%;
+}
+*/
+
+/*hr in footer*/
+hr{
+	padding-left:0px;
+	border: 2px solid black;
+	width:100%;
+}
+
+/* Style social media icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 4px;
+}
+
+/* Add hover */
+.fa:hover {
+  opacity: 0.6; 
+}
+
+.Social-right{
+	text-align: center;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-whatsapp {
+  background: #4FCE5D;
+  color: white;
+}
+/*FOOTER end*/
+
+
+
+
+
+/* Find job page css*/ 
+
+body#findjob{
+	background-image: url("../images/findjob.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+
+h2.jtTitle{
+	color: black;
+}
+
+.Opp{
+	display: flex;
+    text-align: center;
+    justify-content: center;
+    /*width: auto;
+    flex-wrap: wrap;*/
+} 
+/*DONE*/
+
+.Opp .jobDetails{  
+	width: 300px;
+    height: 250px;
+    color: black;  
+    margin: 25px;
+    background:#D1975D;
+    padding: 20px;
+    border: 1px solid yellow;
+    border-radius: 0 70px;
+    /*position: relative;*/
+}
+/*DONE*/
+
+.Opp .jobDetails:hover {
+	color: white;
+    background-color: black;
+}
+/*DONE*/
+
+.Opp .jobDetails .jobDscrpt{
+  	text-align: left;
+}  
+/*DONE*/
+
+/* edit apply-link position if could*/
+.Opp .jobDetails .apply{
+	font-size: 25px;
+	color: #CF1010;
+	font-weight: bold;
+	text-align: center;
+    text-decoration: none;
+}
+/*DONE*/
+
+
+
+
+
+/* Find talent page css*/ 
+
+body#findtalent{
+	background-image: url("../images/findtalent.jpeg");
+	background-position: center;
+	background-size: 100% 100%;
+}
+/*DONE*/
+
+.textHead2{
+	color: white;
+	opacity: 0.5;
+}
+/*DONE*/
+
+.Opp .talentDetails .dImg img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+/*DONE*/
+
+#imgE{
+     border-radius: 50%;
+}
+/*DONE*/
+
+.Opp .talentDetails{  
+   width: 300px;
+   height: 300px;
+   color: black;  
+   margin: 25px;
+   background:#5CCEED;
+   padding: 20px;
+   border: 2px solid #FFF000 ;
+   border-radius: 70px 0;
+  /* position: relative; */
+}
+/*DONE*/
+
+.Opp .talentDetails:hover {
+    color: white;
+    background-color: #070672;
+}
+/*DONE*/
+
+.Opp .talentDetails .talentDscrpt{
+	text-align: center;
+} 
+/*DONE*/
+
+.Opp .talentDetails .apply{
+	text-align: center;
+	font-size: 25px;
+	color: #8A1BB0 ;
+    display:inline-block;
+	font-weight: bold;
+    text-decoration: none;
+}
+/*DONE*/
+
+.tIssues{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/*DONE*/
+
+.tIssues .tIssuesLeft{
+	/*width: 35%;
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+	right: 10px;
+	justify-content: center;
+	margin: 10px 10px 10px 10px;*/
+	
+	font-family: Verdana;
+	font-size: 25px;
+	font-weight: bolder;
+	color: white;
+	position: relative;
+	line-height: 40px;
+}
+/*DONE*/
+
+.tIssues .tIssuesLeft::after{
+	content: '';
+	height: 400%;
+	width: 3px;
+	background: white;
+	opacity: 0.3;
+	position: absolute;
+	right: -100px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+/*DONE*/
+
+.tIssues .tIssuesRight{
+	margin: auto;
+}
+/*DONE*/
